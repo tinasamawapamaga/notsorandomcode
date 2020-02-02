@@ -3,3 +3,25 @@ if __name__ == '__main__':
     n = int(input())
     for i in range(1,n+1):
         print(i, end="")
+
+#Using a dictionary to find pairs of people with their phone numbers; if not found print not found,
+#if found print the person with the phone number and put '=' in between. Python3 vers.
+
+phonebook = {}
+entries = int(input())
+
+for n in range(entries):
+    name, num = input().strip().split(' ')
+    name, num = [str(name), int(num)]
+    phonebook[name] = num
+
+while True:
+    try:  
+        search = str(input())
+        if search in phonebook:
+            output = ''.join('%s=%r' % (search, phonebook[search]))
+            print(output)
+        else:
+            print("Not found")
+    except EOFError:
+        break
