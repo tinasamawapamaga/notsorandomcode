@@ -47,6 +47,9 @@ if __name__ == '__main__':
 
 
 #printing number of consecutive 1s in a binary string  using python
+#Personal note: string formatting of list(bin(n)[2:]
+#[2:]-> 2 means starting at position 2 in the list/string and the empty index behind
+#the colon means to the end of field (i suppose so)
 #!/bin/python3
 import math
 import os
