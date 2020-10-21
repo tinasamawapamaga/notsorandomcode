@@ -4,9 +4,7 @@ alphabet rangoli challenge from Hackerank.
 The passing function is this one:
 
 def print_rangoli(size):
-    # your code goes here
     myStr = 'abcdefghijklmnopqrstuvwxyz'[0:size]
-    
     for i in range(size-1, -size, -1):
         x = abs(i)
         line = myStr[size:x:-1]+myStr[x:size]
@@ -26,8 +24,6 @@ be symmetrical.
 
         
 def print_rangoli_fun(size,sentence,pattern):
-    # your code goes here
-    #myStr = 'abcdefghijklmnopqrstuvwxyz'[0:size]
     string = sentence[0:size]
 
     for i in range(size-1, -size, -1):
