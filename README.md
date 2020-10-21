@@ -1,4 +1,4 @@
 # notsorandomcode
-Reference segments of code as I am learning programming
-Hope you find them useful, most of them will be in Python and hopefully I will do more C++ and Java as well. 
-I desire to learn more since there is no end to education and knowledge expansion. 
+Reference segments of code as I am learning programming (in python)
+Most files are simple programs and solutions to Hackerank problems.
+Some will be modifications and some personal creations. 
